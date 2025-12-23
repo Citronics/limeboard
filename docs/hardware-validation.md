@@ -49,7 +49,7 @@ The following checks are performed to confirm hardware operability at the time o
 
 The following peripherals are validated for detection and basic operation:
 
-- Cellular modem (4G)
+- Cellular modem (4G) (validated with external antenna; requires customer-provided antenna)
 - Wi-Fi
 - Bluetooth Low Energy (BLE)
 - USB
@@ -57,8 +57,8 @@ The following peripherals are validated for detection and basic operation:
 - Embedded controller (MCU)
 - Debug mode access
 - UART
-- GPU
-- GNSS / GPS
+- GPU (validated in a dedicated configuration; not initialized in the default reference setup)
+- GNSS / GPS (validated with external antenna; requires customer-provided antenna)
 - SD / MMC interface
 
 Validation consists of device detection, enumeration, and basic functional checks.
