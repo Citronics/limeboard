@@ -1,10 +1,10 @@
 # Limeboard – Hardware Validation Scope
 
-**Product:** Limeboard 
-**Document type:** Hardware validation scope 
-**Status:** Informational 
-**Audience:** Engineering / Prototyping 
-**Last updated:** 23/12/2025
+**Product:** Limeboard  
+**Document type:** Hardware validation scope  
+**Status:** Informational  
+**Audience:** Engineering / Prototyping  
+**Last updated:** 23/12/2025 
 
 ---
 
