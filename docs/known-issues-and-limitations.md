@@ -48,7 +48,20 @@ Reference:
 
 ---
 
-## 5. Relationship to Other Documentation
+## 5. End-of-Life and Disposal (WEEE)
+
+Limeboard is professional electronic equipment intended for use by engineers and R&D personnel.
+
+It must not be disposed of as unsorted household waste.
+
+At end of life, the product should be:
+- returned to appropriate professional electronic waste channels, or
+- returned to Citronics for proper reuse, recycling, or treatment.
+
+Citronics may offer a professional take-back option upon request.
+
+
+## 6. Relationship to Other Documentation
 
 - Hardware conformity is defined exclusively in the Limeboard Hardware Validation Scope document.
 - This document complements, but does not replace, the hardware validation scope or the Sales Conditions.
