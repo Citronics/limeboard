@@ -3,7 +3,7 @@
 **Product:** Limeboard  
 **Document type:** Informational (non-contractual)  
 **Audience:** Engineering / Prototyping  
-**Last updated:** 23/12/2025
+**Last updated:** 07/01/2026
 
 ---
 
@@ -16,21 +16,20 @@ It does not define product conformity, acceptance criteria, or warranty obligati
 
 ---
 
-## 2. Known Issues  
+## 2. Known issues  
 *(Current reference software and configuration)*
 
-- The one USB port (top left) out of the four is currently not supported by the kernel.  
-  The port is powered, but connected devices are not detected.
-- The accelerometer is currently not supported by the kernel.
+- The one USB port (top left) out of the four is currently not supported by the Linux kernel.  
+  The port is powered, but connected devices are not detected by the CiSoM.
+- The CiSoM integrated accelerometer is currently not supported by the Linux kernel.
 - The GPU is not initialized in the default reference configuration.
-- The board may fail to boot if the FP2 UART is connected to an external device during power-up.   
-  The MCU UART is not concerned by this issue.
+- The board fails to poweroff completely in debug mode. It powers off then reboots.
 
 These issues reflect the current software and configuration state and may change over time.
 
 ---
 
-## 3. Functional Limitations
+## 3. Functional limitations
 
 - Cellular (4G) and GNSS functionality require an external antenna, which is not supplied.  
   These interfaces are therefore not functional out of the box.
@@ -38,7 +37,7 @@ These issues reflect the current software and configuration state and may change
 
 ---
 
-## 4. Handling & Manipulation Warnings
+## 4. Handling & manipulation warnings
 
 - Board configuration (e.g. jumpers) must not be modified while the board is powered, as this may result in permanent hardware damage.
 - Improper handling or operation outside the recommended conditions described in the Limeboard datasheet may result in hardware damage.
@@ -48,7 +47,7 @@ Reference:
 
 ---
 
-## 5. End-of-Life and Disposal (WEEE)
+## 5. End-of-Life and disposal (WEEE)
 
 Limeboard is professional electronic equipment intended for use by engineers and R&D personnel.
 
@@ -61,7 +60,7 @@ At end of life, the product should be:
 Citronics may offer a professional take-back option upon request.
 
 
-## 6. Relationship to Other Documentation
+## 6. Relationship to other documentation
 
 - Hardware conformity is defined exclusively in the Limeboard Hardware Validation Scope document.
 - This document complements, but does not replace, the hardware validation scope or the Sales Conditions.

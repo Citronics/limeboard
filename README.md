@@ -1,6 +1,6 @@
 # Limeboard – Technical Documentation
 
-This repository contains the technical documentation for Limeboard, a professional evaluation and development platform.
+This repository contains the technical documentation for Limeboard, a circular edge computer development kit.
 
 The documents in this repository are intended for engineering and prototyping purposes and describe hardware characteristics, validation scope, known issues, and usage information.
 
@@ -22,8 +22,8 @@ The documents in this repository are intended for engineering and prototyping pu
 ## Legal Notice
 
 Unless explicitly stated otherwise:
-- Documentation is provided for **information purposes only**.
-- It does **not** define product acceptance criteria, warranties, or performance guarantees.
+- Documentation is provided for information purposes only.
+- It does not define product acceptance criteria, warranties, or performance guarantees.
 - Hardware conformity is defined exclusively by the published hardware validation scope referenced in the applicable Sales Conditions.
 
 ---
