@@ -3,7 +3,7 @@
 **Product:** Limeboard  
 **Document type:** Informational (non-contractual)  
 **Audience:** Engineering / Prototyping  
-**Last updated:** 07/01/2026
+**Last updated:** 01/04/2026
 
 ---
 
@@ -24,6 +24,7 @@ It does not define product conformity, acceptance criteria, or warranty obligati
 - The CiSoM integrated accelerometer is currently not supported by the Linux kernel.
 - The GPU is not initialized in the default reference configuration.
 - The board fails to poweroff completely in debug mode. It powers off then reboots.
+- The carrier board silkscreen marking is wrong: it inverts FP2 UART Rx and Tx pins.
 
 These issues reflect the current software and configuration state and may change over time.
 
