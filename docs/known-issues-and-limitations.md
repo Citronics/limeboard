@@ -11,6 +11,8 @@
 
 This document lists known issues, functional limitations, and handling warnings applicable to the current Limeboard reference configuration.
 
+Limeboard is a professional evaluation and development product, intended solely for engineering, testing, and development purposes. It is not certified and not intended for production deployment or consumer use.
+
 This document is provided for information only.  
 It does not define product conformity, acceptance criteria, or warranty obligations.
 
@@ -35,6 +37,7 @@ These issues reflect the current software and configuration state and may change
 - Cellular (4G) and GNSS functionality require an external antenna, which is not supplied.  
   These interfaces are therefore not functional out of the box.
 - The product is intended for use within the European Union only, due to applicable telecommunications frequency and regulatory constraints.
+- CPU frequency scaling is not available in the current reference kernel configuration. The system does not throttle under thermal load; when a CPU core reaches its critical temperature, the kernel triggers an emergency shutdown.
 
 ---
 
