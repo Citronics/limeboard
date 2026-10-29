@@ -3,7 +3,7 @@
 **Product:** Limeboard  
 **Document type:** Informational (non-contractual)  
 **Audience:** Engineering / Prototyping  
-**Last updated:** 01/04/2026
+**Last updated:** 29/10/2026
 
 ---
 
@@ -37,7 +37,8 @@ These issues reflect the current software and configuration state and may change
 - Cellular (4G) and GNSS functionality require an external antenna, which is not supplied.  
   These interfaces are therefore not functional out of the box.
 - The product is intended for use within the European Union only, due to applicable telecommunications frequency and regulatory constraints.
-- CPU frequency scaling is not available in the current reference kernel configuration. The system does not throttle under thermal load; when a CPU core reaches its critical temperature, the kernel triggers an emergency shutdown.
+- CPU frequency scaling is not available in the default kernel configuration. The system does not throttle under thermal load; when a CPU core reaches its critical temperature, the kernel triggers an emergency shutdown.  
+  CPU frequency scaling and thermal throttling are available in experimental kernel builds, published in the `experimental` component of the Citronics package repository (https://citronics.github.io/deb-packages). These builds are not validated for general use.
 
 ---
 
