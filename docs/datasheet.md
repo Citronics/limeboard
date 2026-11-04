@@ -3,7 +3,7 @@
 **Product:** Limeboard  
 **Document type:** Technical specification (informational)  
 **Audience:** Engineering / Integration  
-**Last updated:** 23/12/2025
+**Last updated:** 04/11/2026
 
 ---
 
@@ -48,8 +48,8 @@
 
 - GNSS / GPS, A-GPS  
   - Requires external antenna (not included)
-- Accelerometer  
-  - Software support pending
+- Accelerometer, gyroscope, magnetometer
+  - Software support available in experimental kernels
 
 ---
 
